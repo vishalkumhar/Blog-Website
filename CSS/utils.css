@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Open+Sans&display=swap");
+
+:root {
+  --main-bg-color: brown;
+  --font1: 'Alkalami', serif;
+  --font2:'Open Sans', sans-serif;
+}
+.font1{
+  font-family: var(--font1);
+}
+.font2{
+  font-family: var(--font2);
+}
+.max-width-1 {
+  max-width: 80vw;
+}
+.max-width-2 {
+  max-width: 60vw;
+}
+.m-auto {
+  margin: auto;
+}
+.btn {
+    padding: 0px 15px;
+    padding-top: 5px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+  background: var(--main-bg-color);
+  color: white;
+}
+.form-input {
+padding: 0px 5px;
+padding-top: 5px;
+font-size: 16px;
+border: 2px solid black;
+border-radius: 4px;
+margin: 0 5px;
+font-family: var(--font1);
+}
+
