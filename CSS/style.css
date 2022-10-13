@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 .navigation {
-  margin-top: 23px;
+  margin-top: 23px ;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 74px;
   /*background-color: salmon;*/
@@ -18,6 +18,16 @@ body {
   margin-top: 32px;
     display: flex;
  padding: 9px;
+ 
+position: relative;
+}
+.content::after{
+  content:"";
+  background-image: url(../images/jess.jpg);
+  position: absolute;
+  width: 800px;
+  height:inherit ;
+  opacity: 0.15;
 }
 
 .footer {
@@ -67,9 +77,9 @@ justify-content: center;
  
   height: 220px;
   border: 2px solid black;
-  border-radius: 405px;
+  border-radius: 200px;
   padding: 0px;
-  width: 325px;
+  width: 220px;
 }
 .home-articles{
 
